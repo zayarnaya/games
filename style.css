@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main__left-field,
+.main__game-field,
+.main__right-field {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px dotted gray;
+    padding: 20px 10px;
+}
+
+.main__game-field {
+    text-align: center;
+}
+
+.field__line {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-row {
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+}
+
+.game-cell {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.game-cell_line.del {
+    background-color: black;
+    opacity: .9;
+}
+
+.game-cell_line.wrong {
+    border: 1px solid red;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list__item {
+    list-style: none;
+}
+
+.nav-list__item.active {
+    background-color: antiquewhite;
+}
+
+.field__line {
+    height: 700px;
+    width: 270px;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field__square {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}

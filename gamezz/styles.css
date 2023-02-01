@@ -1,0 +1,54 @@
+.gameNumbers {
+
+}
+
+.blocky {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    
+
+}
+
+.blank {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.blacky {
+    color: black;
+}
+
+.del {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+    
+}
+.selected {
+    border: 1px solid crimson;
+}
+
+.reddy {
+    border: 1px solid red;
+}
+
+.greeny {
+    border: 1px solid green;
+}
